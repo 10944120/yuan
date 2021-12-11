@@ -1,0 +1,613 @@
+.mySlides {display:none;}
+/* 背景 */
+body {
+    background-color: #89c4c486;  
+}
+.moov{
+    margin-left: 300px;
+}
+
+/*狗*/
+.div1{
+
+position: absolute;
+z-index: 2;
+margin-left: 20px;
+}
+.div1 p{
+font-size: 16px;
+letter-spacing: 2px;
+}
+.duv1 .tleft{
+width: 130px;
+font-weight: bold;
+}
+.div1 img{
+width: 38px;
+height: 38px;
+margin-right: 20px;
+margin-top:15px;
+}
+
+
+
+.div2 img {
+    position: absolute;
+    height: 400px;
+    width: 1265px;
+}
+.div20  {
+    position: absolute;
+    border-radius: 30px;
+    margin-top: 3300px;
+    margin-left: 615px;
+    padding-left: 20px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em
+}
+
+
+
+.w3-opacity-min{opacity:0.75}
+
+/* 我 */
+.div3 img {
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    padding-left: 50px;
+    padding-top: 100px;
+    
+}
+
+/* 上排選單字型 */
+.div4 {
+    position: absolute;
+    font-style: italic;
+    font-size: 45px;
+    text-align: left;
+    color: white;
+    margin-left: 400px;
+    margin-top: 330px;
+    text-shadow: black 0.1em 0.1em 0.2em
+    
+}
+
+.under {
+    color: white;
+    font-size: 25px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+#chName {
+    position: absolute;
+    font-family: "標楷體";
+    font-size: 45px;
+    font-weight: 300;
+    font-style: italic;
+    top: 250px;
+    margin-left: 300px;
+    z-index: 3;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em
+}
+
+
+
+/* 技能 */
+.div5 {
+    background-color: rgba(150, 151, 151, 0.356);
+    border-radius: 30px;
+    position: absolute;
+    right: 5%;
+    margin-top: 500px;
+    z-index: 3;
+}
+
+/* 學歷 */
+.div6 {
+    position: absolute;
+    background-color: rgba(150, 151, 151, 0.356);
+    border-radius: 30px;
+    margin-top: 450px;
+    margin-left: 615px;
+    padding-left: 20px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em
+}
+
+.div10 {
+    font-size: 20px;
+    margin-top: -15px;
+}
+
+.div6 img {
+    height: 32px;
+    width: 32px;
+    padding-left: 20px;
+}
+
+
+
+/* creat */
+.div7 {
+    position: absolute;
+    background-color: rgba(150, 151, 151, 0.356);
+    border-radius: 30px;
+    margin-top: 620px;
+    margin-left: 615px;
+    margin-right: 695px;
+    padding: 5px 20px 20px 20px;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em
+    
+}
+
+.div7 img {
+    height: 450px;
+    width: 450px;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+/*幻燈片*/
+/* 按鈕 */
+button{border:0;
+background-color:#adadada8;
+color:#fff;
+border-radius:10px;
+cursor:pointer;
+}
+
+button:hover{
+color:#939597;
+background-color:#fff;
+border:2px #9fa4ac49 solid;
+
+}
+.div8{
+position:absolute;
+margin-top: -200px;
+
+}
+.div9{
+position:absolute;
+margin-top: -200px;
+margin-left: 520px;
+
+}
+.div13{
+padding-left: 20px;
+padding-right: 20px;
+}
+
+
+/* 幻燈片 */
+.w3-animate-fading{animation:fading 10s infinite}@keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}}
+/* 投影 */
+.div11 {
+position: absolute;
+    background-color: rgba(150, 151, 151, 0.356);
+    border-radius: 30px;
+    margin-top: 1355px;
+    margin-left: 615px;
+    margin-right: 615px;
+    padding: 5px 35px 10px 40px;
+    z-index: 1;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em
+}
+.div11 img{
+height:380px ;
+width:
+350px;
+}
+.div14 img{
+height:250px ;
+width: 500px;
+}
+
+
+/* 技能 */
+.word{
+margin-top: 28px;
+margin-left: 10px;
+}
+.div12{
+position: absolute;
+    border-radius: 30px;
+    margin-top: 450px;
+    margin-left: 40px;
+    z-index: 1;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em
+
+}
+.circle {
+    width: 150px;
+    height: 150px;
+    background: #d9d9d96c;
+    border-radius: 50%;
+    margin: 20px 50px 20px 50px;
+}
+
+
+.inside-circle {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    background-color: #e7e3db;
+    margin-top: 20px;
+    margin-left: 20px;
+    position: absolute;
+    z-index: 100;
+}
+
+.mask,
+.fill {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    border-radius: 50%;
+}
+
+
+.mask {
+    clip: rect(0px, 150px, 150px, 75px);
+}
+
+/*第一個圈圈*/
+.fill {
+    clip: rect(0px, 75px, 150px, 0px);
+    background-color: #b89c9cb6;
+}
+
+.mask.full,
+.fill {
+    animation: fill ease-in-out 3s;
+    transform: rotate(150deg);
+}
+
+@keyframes fill {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(150deg);
+    }
+}
+
+/*第二個圈圈*/
+
+.fill2 {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    border-radius: 50%;
+    clip: rect(0px, 75px, 150px, 0px);
+    background-color: #285e6eab;
+}
+
+.mask.full2,
+.fill2 {
+    animation: fill2 ease-in-out 3s;
+    transform: rotate(145deg);
+}
+
+@keyframes fill2 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(145deg);
+    }
+}
+
+/*第三個圈圈*/
+
+.fill3 {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    border-radius: 50%;
+    clip: rect(0px, 75px, 150px, 0px);
+    background-color: #285e6eab;
+
+}
+
+.mask.full3,
+.fill3 {
+    animation: fill3 ease-in-out 3s;
+    transform: rotate(130deg);
+}
+
+@keyframes fill3 {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(130deg);
+    }
+}
+
+
+/*第四個圈圈*/
+.fill4 {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    border-radius: 50%;
+    clip: rect(0px, 75px, 150px, 0px);
+    background-color: #b89c9cb6;
+}
+
+.mask.full4,
+.fill4 {
+    animation: fill4 ease-in-out 3s;
+    transform: rotate(155deg);
+}
+
+@keyframes fill4 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(155deg);
+    }
+}
+
+.work {
+position: absolute;
+padding-right: 10px;
+width: 680px;
+border-radius: 30px;
+
+    margin-top: 1350px;
+    padding: 5px 40px 40px 40px;
+    z-index: 1;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em
+}
+
+
+
+
+/* 時間軸，for工作經驗 */
+/* The actual timeline (the vertical ruler) */
+.timeline {
+z-index: -1;
+position: relative;
+max-width: 597px;
+margin: 0 auto;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+z-index: -1;
+content: '';
+position: absolute;
+width: 6px;
+background-color: rgb(253, 251, 251);
+top: 0;
+bottom: 0;
+margin-left: 10px;
+}
+
+.contain {
+padding: 20px 40px;
+position: relative;
+/* background-color: lightcoral; */
+width: 100%;
+}
+
+.contain:after {
+content: '';
+position: absolute;
+width: 25px;
+height: 25px;
+right: 649px;
+background-color: white;
+border: 4px solid #40b3b3;
+top: 43px;
+border-radius: 50%;
+z-index: 1;
+}
+
+.content {
+padding-left: 30px;
+width: 600px;
+max-height: fit-content;
+}
+
+.year {
+font-size: 31px;
+font-weight: bold;
+}
+
+.company {
+font-size: 20px;
+font-weight: bold;
+
+}
+
+.job {
+font-size: 10pxpx;
+margin-left: 20px;
+}
+
+.underline{
+box-shadow: 0 3px;padding-bottom:0px;   
+}
+
+/*進度條*/
+
+.j {
+animation: progressj infinite;
+animation-duration: 6s;
+width: 80%;
+}
+.h {
+animation: progressh infinite;
+animation-duration: 6s;
+width: 95%;
+}
+.cc {
+animation: progressc infinite;
+animation-duration: 6s;
+width: 68%;
+}
+.sw {
+animation: progresssw infinite;
+animation-duration: 6s;
+width: 50%;
+}
+
+
+.progressbar {
+background-color: #2a6168bd;
+border-radius: 20px;
+text-align: right;
+height: 20px;
+z-index: 1;
+}
+
+.skillbox {
+position: relative;
+left: 90px;
+width: 400px;
+color: white;
+font-size: 20px;
+top: 60px;
+}
+.progress {
+position: relative;
+background-color: #285e6e34;
+border-radius: 20px;
+padding: 4px;
+}
+.html{
+position: relative;
+top: 5px;
+}
+.c{
+position: relative;
+top: 8px;
+}
+.swiftui{
+position: relative;
+top: 12px;
+}
+
+/*進度條動畫*/
+@keyframes progressj {
+0% {
+width: 0%;
+}
+
+100% {
+width: 80%;
+}
+}
+@keyframes progressh {
+0% {
+width: 0%;
+}
+
+100% {
+width: 95%;
+}
+}
+@keyframes progressc {
+0% {
+width: 0%;
+}
+
+100% {
+width: 68%;
+}
+}
+@keyframes progresssw {
+0% {
+width: 0%;
+}
+
+100% {
+width: 50%;
+}
+}
+.div15{
+
+position:absolute;
+    border-radius: 30px;
+    margin-top: 880px;
+    margin-left: -40px;
+    margin-right: 57px;
+    padding: 5px 35px 10px 40px;
+    z-index: 1;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em
+}
+
+/*life*/
+.hover img {
+position:absolute;
+margin-top: 0px;
+transition: 1s;
+box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)
+}
+
+
+.hover img:nth-of-type(2):hover{
+opacity:0; 
+}
+.ttt{
+position: absolute;
+    margin-top: 2600px;
+    margin-left: 350px;
+    
+    z-index: 1;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em
+
+}
+.w1{
+position:absolute;
+
+
+}
+.w2{
+position:absolute;
+margin-left:400px ;
+}
+.w3{
+position:absolute;
+margin-left:800px ;
+
+}
+.w4{
+position:absolute;
+margin-top: 300px;
+margin-bottom: 100px;
+}
+.w5{
+position:absolute;
+margin-left:400px ;
+margin-top: 300px;
+margin-bottom: 100px;
+}
+.w6{
+position:absolute;
+margin-left:800px ;
+margin-top: 300px;
+margin-bottom: 100px;
+}
+
+
